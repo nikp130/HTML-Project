@@ -1,0 +1,178 @@
+/* Estilos para el cuerpo de la página */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos para la sección de presentación */
+header {
+	background-image: url('header-background.jpg');
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.intro {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.intro h1 {
+	font-size: 36px;
+	margin: 0 0 20px 0;
+}
+
+.intro p {
+	font-size: 20px;
+	margin: 0 0 30px 0;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #ff0000;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Estilos para la sección de servicios */
+#services {
+	background-color: #f7f7f7;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.service {
+	flex-basis: 300px;
+	margin: 20px;
+}
+
+.service img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.service h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.service p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Estilos para la sección de testimonios */
+#testimonials {
+	background-color: #fff;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.testimonial-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.testimonial {
+	flex-basis: 300px;
+	margin: 20px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.testimonial cite {
+	font-style: italic;
+	font-size: 16px;
+}
+
+/* Estilos para la sección de contacto */
+#contact {
+	background-color: #333;
+	color: #fff;
+	padding: 60px 0;
+	text-align: center;
+}
+
+#contact h2 {
+	margin-bottom: 30px;
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	display: block;
+	width: 
+}
